@@ -14,6 +14,9 @@
 		77AC5D6B1FD88B0C00F0EBC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77AC5D691FD88B0C00F0EBC1 /* LaunchScreen.storyboard */; };
 		77AC5D761FD88B0D00F0EBC1 /* navigationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AC5D751FD88B0D00F0EBC1 /* navigationTests.swift */; };
 		77AC5D811FD88B0D00F0EBC1 /* navigationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AC5D801FD88B0D00F0EBC1 /* navigationUITests.swift */; };
+		77AC5D8F1FE3034400F0EBC1 /* LoginViewController copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AC5D8E1FE3034400F0EBC1 /* LoginViewController copy.swift */; };
+		77AC5D911FE3081200F0EBC1 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 77AC5D901FE3081200F0EBC1 /* background.png */; };
+		77AC5D931FE30AEB00F0EBC1 /* IthacaLogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 77AC5D921FE30AEB00F0EBC1 /* IthacaLogo.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		77AC5D7C1FD88B0D00F0EBC1 /* navigationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = navigationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		77AC5D801FD88B0D00F0EBC1 /* navigationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navigationUITests.swift; sourceTree = "<group>"; };
 		77AC5D821FD88B0D00F0EBC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77AC5D8E1FE3034400F0EBC1 /* LoginViewController copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "LoginViewController copy.swift"; path = "../../LoginViewController copy.swift"; sourceTree = "<group>"; };
+		77AC5D901FE3081200F0EBC1 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = ../../background.png; sourceTree = "<group>"; };
+		77AC5D921FE30AEB00F0EBC1 /* IthacaLogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IthacaLogo.jpg; path = ../../IthacaLogo.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +103,10 @@
 		77AC5D5F1FD88B0C00F0EBC1 /* navigation */ = {
 			isa = PBXGroup;
 			children = (
+				77AC5D901FE3081200F0EBC1 /* background.png */,
+				77AC5D921FE30AEB00F0EBC1 /* IthacaLogo.jpg */,
 				77AC5D601FD88B0C00F0EBC1 /* AppDelegate.swift */,
+				77AC5D8E1FE3034400F0EBC1 /* LoginViewController copy.swift */,
 				77AC5D621FD88B0C00F0EBC1 /* ViewController.swift */,
 				77AC5D641FD88B0C00F0EBC1 /* Main.storyboard */,
 				77AC5D671FD88B0C00F0EBC1 /* Assets.xcassets */,
@@ -233,7 +242,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				77AC5D6B1FD88B0C00F0EBC1 /* LaunchScreen.storyboard in Resources */,
+				77AC5D911FE3081200F0EBC1 /* background.png in Resources */,
 				77AC5D681FD88B0C00F0EBC1 /* Assets.xcassets in Resources */,
+				77AC5D931FE30AEB00F0EBC1 /* IthacaLogo.jpg in Resources */,
 				77AC5D661FD88B0C00F0EBC1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				77AC5D631FD88B0C00F0EBC1 /* ViewController.swift in Sources */,
+				77AC5D8F1FE3034400F0EBC1 /* LoginViewController copy.swift in Sources */,
 				77AC5D611FD88B0C00F0EBC1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
